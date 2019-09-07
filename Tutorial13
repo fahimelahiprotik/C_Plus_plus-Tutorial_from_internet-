@@ -5,7 +5,7 @@ using namespace std;
 
 class bucky{
 	private :
-		string name;
+		string name;                                 /// good practice to keep variable private 
 		public:
 			void Setname (string x){
 				name=x;
