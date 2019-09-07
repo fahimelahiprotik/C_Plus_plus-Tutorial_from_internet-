@@ -1,0 +1,20 @@
+#include<iostream>
+
+using namespace std;
+
+class buckyclass{
+	public:
+		void Coolsaying(){
+			cout<<"papa"<<endl;
+		}
+};
+
+int main ()
+{
+	buckyclass buckyobject;                        // to access the class we are 
+						                                    // using object ;acts like just a structure 
+						                                   // Coolsaying can be in diffrent class 
+    buckyobject.Coolsaying();
+    return 0;
+}
+
