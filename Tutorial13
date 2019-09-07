@@ -11,6 +11,7 @@ class bucky{
 				name=x;
 			}
 			string Getname(){               /// remember the type of function and what are you trying to return
+			                                   ///using variable in the class
 				return name;
 			}
 };
