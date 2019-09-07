@@ -10,7 +10,7 @@ class bucky{
 			void Setname (string x){
 				name=x;
 			}
-			string Getname(){
+			string Getname(){               /// remember the type of function and what are you trying to return
 				return name;
 			}
 };
