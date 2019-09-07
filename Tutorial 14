@@ -1,0 +1,30 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+class bucky{
+	private :
+		string name;
+		public:
+			bucky(string z){  // constructors are used for intially set the value of a variable if it is required 
+				Setname(z);
+				
+			}
+			void Setname (string x){
+				name=x;
+			}
+			string Getname(){
+				return name;
+			}
+};
+
+int main(){
+	bucky bo("elahi2"); // calling the object and set the parameter of constructor
+    cout<<bo.Getname();
+ 
+	bucky co("elahi");
+  // two diffrent object co and bo //they  are two diffrent object 
+	cout<<co.Getname();
+	
+}
