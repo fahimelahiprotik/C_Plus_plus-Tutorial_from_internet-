@@ -1,0 +1,23 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+class bucky{
+	private :
+		string name;
+		public:
+			void Setname (string x){
+				name=x;
+			}
+			string Getname(){
+				return name;
+			}
+};
+
+int main(){
+	bucky bo;
+	bo.Setname("fahim");
+	cout<<bo.Getname();
+	
+}
