@@ -18,6 +18,9 @@ class bucky{
 
 int main(){
 	bucky bo;
+	bucky co;
+	co.Setname("Elahi");              // two diffrent object co and bo //
+	cout<<co.Getname()<<endl;
 	bo.Setname("fahim");
 	cout<<bo.Getname();
 	
