@@ -1,0 +1,8 @@
+#include "bob.h"
+#include <iostream>
+
+using namespace std;
+bob :: bob(){  // this function belongs to this bob class // :: binary space resolution operator 
+	
+	cout<<"i am a banana"<<endl ;
+}
