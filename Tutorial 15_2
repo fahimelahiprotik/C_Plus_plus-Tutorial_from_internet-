@@ -1,0 +1,11 @@
+#ifndef BOB_H
+#define BOB_H
+
+class bob
+{
+	public:
+		bob();
+	
+};
+
+#endif
